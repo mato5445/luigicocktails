@@ -1,0 +1,13 @@
+package com.luigicocktails.LuigiCocktails;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class LuigiCocktailsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(LuigiCocktailsApplication.class, args);
+	}
+
+}
