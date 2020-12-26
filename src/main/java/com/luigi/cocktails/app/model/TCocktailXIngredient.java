@@ -1,4 +1,4 @@
-package com.luigi.cocktails.app;
+package com.luigi.cocktails.app.model;
 
 import java.io.Serializable;
 
@@ -8,10 +8,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.MapsId;
 import javax.persistence.Table;
-
-import com.luigi.cocktails.app.model.CocktailIngredientId;
-import com.luigi.cocktails.app.model.TCocktail;
-import com.luigi.cocktails.app.model.TIngredient;
 
 @Entity
 @Table(name = "t_cocktails_x_ingredients", schema = "co")
